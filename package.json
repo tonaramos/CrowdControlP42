@@ -1,0 +1,24 @@
+{
+  "name": "crowd-control",
+  "version": "1.0.0",
+  "description": "Application to control crowds : courtesy Angel Hack 2019 Silicon Valley ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "./node_modules/mocha/bin/mocha test/**/*-test.js --reporter spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.485.0",
+    "body-parser": "latest",
+    "dotenv": "^5.0.1",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "intuit-oauth": "1.2.0",
+    "ngrok": "^2.2.9",
+    "path": "^0.12.7",
+    "python-shell": "^1.0.7"
+  }
+}
